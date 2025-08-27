@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollador - Centry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <span class="brand-text">Centry</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links">
+                <a href="/" class="nav-link">
+                    <span data-translate="nav.home">Inicio</span>
+                </a>
+                <a href="/developer.html" class="nav-link active">
+                    <span data-translate="nav.developer">Desarrollador</span>
+                </a>
+                <a href="/support.html" class="nav-link">
+                    <span data-translate="nav.support">Soporte</span>
+                </a>
+                <a href="/terms.html" class="nav-link">
+                    <span data-translate="nav.terms">Términos</span>
+                </a>
+                <a href="/privacy.html" class="nav-link">
+                    <span data-translate="nav.privacy">Privacidad</span>
+                </a>
+            </div>
+
+            <!-- Language toggle and Mobile menu button -->
+            <div class="nav-controls">
+                <button class="language-toggle" id="languageToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="currentLanguage">ES</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="/" class="mobile-nav-link">
+                <span data-translate="nav.home">Inicio</span>
+            </a>
+            <a href="/developer.html" class="mobile-nav-link">
+                <span data-translate="nav.developer">Desarrollador</span>
+            </a>
+            <a href="/support.html" class="mobile-nav-link">
+                <span data-translate="nav.support">Soporte</span>
+            </a>
+            <a href="/terms.html" class="mobile-nav-link">
+                <span data-translate="nav.terms">Términos</span>
+            </a>
+            <a href="/privacy.html" class="mobile-nav-link">
+                <span data-translate="nav.privacy">Privacidad</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h1 data-translate="developer.title">Información del Desarrollador</h1>
+                    <p data-translate="developer.subtitle">Conoce más sobre nuestro equipo y proceso de desarrollo</p>
+                </div>
+
+                <div class="developer-content">
+                    <div class="developer-grid">
+                        <div class="developer-section">
+                            <h3 data-translate="developer.aboutTeam">Sobre Nuestro Equipo</h3>
+                            <p data-translate="developer.aboutTeamText1">
+                                Centry está formado por un equipo de desarrolladores especializados en aplicaciones empresariales y soluciones para Google Workspace. Contamos con años de experiencia creando herramientas que optimizan procesos comerciales.
+                            </p>
+                            <p data-translate="developer.aboutTeamText2">
+                                Nuestro enfoque se centra en la simplicidad, la seguridad y la eficiencia, garantizando que cada aplicación cumpla con los más altos estándares de calidad.
+                            </p>
+                        </div>
+                        <div class="developer-section">
+                            <h3 data-translate="developer.developmentProcess">Proceso de Desarrollo</h3>
+                            <ul class="process-list">
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span data-translate="developer.process1">Análisis detallado de requisitos empresariales</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span data-translate="developer.process2">Desarrollo con las mejores prácticas de seguridad</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span data-translate="developer.process3">Pruebas exhaustivas antes del lanzamiento</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span data-translate="developer.process4">Soporte continuo y actualizaciones regulares</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3 data-translate="developer.contactInfo">Información de Contacto del Desarrollador</h3>
+                        <div class="contact-grid">
+                            <div class="contact-section">
+                                <p><strong data-translate="developer.company">Empresa</strong>: Centry Solutions</p>
+                                <p><strong data-translate="developer.website">Sitio Web</strong>: -</p>
+                            </div>
+                            <div class="contact-section">
+                                <p><strong data-translate="developer.supportEmail">Email de Soporte</strong>: centrydev1@gmail.com</p>
+                                <p><strong data-translate="developer.privacyPolicy">Política de Privacidad</strong>: <span data-translate="developer.availableOnPage">Disponible en esta página</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="brand-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <span class="brand-text">Centry</span>
+                    </div>
+                    <p class="footer-description" data-translate="footer.description">
+                        Desarrollamos aplicaciones empresariales para Google Workspace que optimizan procesos y aumentan la productividad de tu negocio.
+                    </p>
+                    <p class="footer-rights">
+                        © 2025 Centry Solutions. <span data-translate="footer.rights">Todos los derechos reservados.</span>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-translate="footer.resources">Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="/developer.html" data-translate="nav.developer">Desarrollador</a></li>
+                        <li><a href="/support.html" data-translate="nav.support">Soporte</a></li>
+                        <li><a href="/terms.html" data-translate="nav.terms">Términos</a></li>
+                        <li><a href="/privacy.html" data-translate="nav.privacy">Privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-translate="footer.contact">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>centrydev1@gmail.com</li>
+                        <li>Google Workspace Marketplace</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

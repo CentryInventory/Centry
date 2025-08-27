@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Centry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <span class="brand-text">Centry</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links">
+                <a href="/" class="nav-link">
+                    <span data-translate="nav.home">Inicio</span>
+                </a>
+                <a href="/developer.html" class="nav-link">
+                    <span data-translate="nav.developer">Desarrollador</span>
+                </a>
+                <a href="/support.html" class="nav-link active">
+                    <span data-translate="nav.support">Soporte</span>
+                </a>
+                <a href="/terms.html" class="nav-link">
+                    <span data-translate="nav.terms">Términos</span>
+                </a>
+                <a href="/privacy.html" class="nav-link">
+                    <span data-translate="nav.privacy">Privacidad</span>
+                </a>
+            </div>
+
+            <!-- Language toggle and Mobile menu button -->
+            <div class="nav-controls">
+                <button class="language-toggle" id="languageToggle">
+                    <i class="fas fa-globe"></i>
+                    <span id="currentLanguage">ES</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <a href="/" class="mobile-nav-link">
+                <span data-translate="nav.home">Inicio</span>
+            </a>
+            <a href="/developer.html" class="mobile-nav-link">
+                <span data-translate="nav.developer">Desarrollador</span>
+            </a>
+            <a href="/support.html" class="mobile-nav-link">
+                <span data-translate="nav.support">Soporte</span>
+            </a>
+            <a href="/terms.html" class="mobile-nav-link">
+                <span data-translate="nav.terms">Términos</span>
+            </a>
+            <a href="/privacy.html" class="mobile-nav-link">
+                <span data-translate="nav.privacy">Privacidad</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h1 data-translate="support.title">Soporte y Ayuda</h1>
+                    <p data-translate="support.subtitle">Estamos aquí para ayudarte con cualquier consulta</p>
+                </div>
+
+                <div class="support-grid">
+                    <div class="support-card">
+                        <h3 data-translate="support.directContact">Contacto Directo</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <p class="contact-label" data-translate="support.email">Email</p>
+                                    <p class="contact-value">centrydev1@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <p class="contact-label" data-translate="support.location">Ubicación</p>
+                                    <p class="contact-value" data-translate="support.remoteSupport">Remoto - Soporte 24/7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="support-card">
+                        <h3 data-translate="support.helpResources">Recursos de Ayuda</h3>
+                        <div class="help-content">
+                            <div class="help-section">
+                                <h4 data-translate="support.responseTime">Tiempo de Respuesta</h4>
+                                <p data-translate="support.responseTimeText">Respondemos a todas las consultas en un máximo de 24 horas durante días laborales.</p>
+                            </div>
+                            <div class="help-section">
+                                <h4 data-translate="support.supportTypes">Tipos de Soporte</h4>
+                                <ul class="support-types">
+                                    <li data-translate="support.supportType1">Instalación y configuración</li>
+                                    <li data-translate="support.supportType2">Resolución de problemas técnicos</li>
+                                    <li data-translate="support.supportType3">Consultas sobre funcionalidades</li>
+                                    <li data-translate="support.supportType4">Solicitudes de nuevas características</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-section">
+                    <h3 data-translate="support.faq">Preguntas Frecuentes</h3>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h4 data-translate="support.faqQ1">¿Cómo instalo las aplicaciones?</h4>
+                            <p data-translate="support.faqA1">Puedes instalar nuestras aplicaciones directamente desde Google Workspace Marketplace con unos pocos clics.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4 data-translate="support.faqQ2">¿Las aplicaciones son seguras?</h4>
+                            <p data-translate="support.faqA2">Sí, todas nuestras aplicaciones cumplen con los estándares de seguridad de Google y están regularmente auditadas.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4 data-translate="support.faqQ3">¿Hay prueba gratuita?</h4>
+                            <p data-translate="support.faqA3">Ofrecemos períodos de prueba gratuitos para que puedas evaluar nuestras aplicaciones antes de la compra.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4 data-translate="support.faqQ4">¿Ofrecen capacitación?</h4>
+                            <p data-translate="support.faqA4">Sí, proporcionamos documentación detallada y sesiones de capacitación para equipos empresariales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="brand-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <span class="brand-text">Centry</span>
+                    </div>
+                    <p class="footer-description" data-translate="footer.description">
+                        Desarrollamos aplicaciones empresariales para Google Workspace que optimizan procesos y aumentan la productividad de tu negocio.
+                    </p>
+                    <p class="footer-rights">
+                        © 2025 Centry Solutions. <span data-translate="footer.rights">Todos los derechos reservados.</span>
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-translate="footer.resources">Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="/developer.html" data-translate="nav.developer">Desarrollador</a></li>
+                        <li><a href="/support.html" data-translate="nav.support">Soporte</a></li>
+                        <li><a href="/terms.html" data-translate="nav.terms">Términos</a></li>
+                        <li><a href="/privacy.html" data-translate="nav.privacy">Privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-translate="footer.contact">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>centrydev1@gmail.com</li>
+                        <li>Google Workspace Marketplace</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
