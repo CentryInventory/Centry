@@ -54,7 +54,7 @@ export const Navbar: React.FC = () => {
         {/* Desktop Actions */}
         <div className="nav-actions">
           <a
-            href="https://app.centry.lol"
+            href="https://panel.centry.lol"
             className="btn btn-primary btn-sm login-btn"
           >
             <LogIn size={18} />
@@ -84,7 +84,7 @@ export const Navbar: React.FC = () => {
               </Link>
             ))}
             <a
-              href="https://app.centry.lol"
+              href="https://panel.centry.lol"
               className="mobile-nav-link login-mobile-link"
             >
               <LogIn size={20} />

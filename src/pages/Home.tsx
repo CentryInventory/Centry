@@ -22,7 +22,7 @@ export const Home: React.FC = () => {
             </p>
             
             <div className="hero-actions">
-              <a href="https://app.centry.lol" className="btn btn-primary">
+              <a href="https://panel.centry.lol" className="btn btn-primary">
                 Ingresar al Panel <ArrowRight size={18} />
               </a>
               <Link to="/support" className="btn btn-secondary">
@@ -61,7 +61,7 @@ export const Home: React.FC = () => {
                 <li><Zap size={18} /> Gestión instantánea de productos</li>
               </ul>
               <div className="mt-8">
-                <a href="https://app.centry.lol" className="btn btn-primary w-full">
+                <a href="https://panel.centry.lol" className="btn btn-primary w-full">
                   Probar Centry Inventory
                 </a>
               </div>
